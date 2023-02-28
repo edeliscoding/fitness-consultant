@@ -6,10 +6,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      primary: "Roboto",
-      body: "Roboto",
-    },
+    // fontFamily: {
+    //   primary: "Roboto",
+    //   body: "Roboto",
+    // },
     container: {
       padding: {
         DEFAULT: "1rem",

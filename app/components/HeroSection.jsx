@@ -16,7 +16,7 @@ const HeroSection = () => {
             {/* <p className="text-3xl text-bold text-accent text-md mb-[22px]">
               David Wood
             </p> */}
-            <h1 className="text-4lg leading-[46px] md:text-4xl md:leading-tight lg:text-6xl lg:leading-[1.2] font-bold md:tracking-[-4px]">
+            <h1 className="text-4lg leading-[46px] md:text-4xl md:leading-tight lg:text-6xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
               Athlethic Performance Coach <span className="text-accent">&</span>{" "}
               Fitness Consultant
             </h1>

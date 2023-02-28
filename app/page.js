@@ -14,9 +14,16 @@ export const metadata = {
   viewport: `width=device-width, initial-scale=1.0`,
 };
 
+import { Roboto } from "@next/font/google";
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+});
+
 export default function Home() {
   return (
-    <main>
+    <main className={roboto.className}>
       <HeroSection />
       <About />
       <Testimonial />
