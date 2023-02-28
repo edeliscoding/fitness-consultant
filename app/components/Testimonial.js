@@ -16,7 +16,7 @@ const Testimonial = () => {
   return (
     <section
       id="testimonials"
-      className="bg-testimonial bg-cover bg-no-repeat relative z-10 h-[780px] pt-[60px] md:pt-[120px]"
+      className="bg-testimonial bg-cover bg-no-repeat relative z-5 h-[780px] pt-[60px] md:pt-[120px]"
     >
       <div className="top-0 left-0 absolute bg-blend-multiply h-full w-full"></div>
       <div className="container mx-auto">

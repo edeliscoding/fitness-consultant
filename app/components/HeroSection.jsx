@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import React from "react";
 import WomanImg from "../assets/banner-woman2.webp";
 import Yoga from "../assets/yoga.jpg";
@@ -23,6 +24,7 @@ const HeroSection = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
               dolor elit.
             </p>
+
             <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all">
               Work with me
             </button>

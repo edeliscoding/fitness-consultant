@@ -3,6 +3,7 @@ import Image from "next/image";
 
 // import img
 import Image2 from "../assets/about.webp";
+import Image3 from "../assets/fitnesscoaching.jpg";
 
 const About = () => {
   return (
@@ -11,8 +12,8 @@ const About = () => {
         <div className="flex flex-col xl:flex-row gap-24">
           <Image
             className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
-            src={Image2}
-            alt=""
+            src={Image3}
+            alt="David Wood as a fitness coach and athletic trainer in action"
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
