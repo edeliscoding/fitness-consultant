@@ -147,7 +147,7 @@ export const faq = {
 
 export const testimonialData = {
   title: "what client's say ",
-  subtitle: "50+ statisfied clients",
+  subtitle: "100+ statisfied clients",
   modelImg: ModelWhiteImg,
   slider: [
     {
@@ -180,7 +180,7 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email me at dwood4surf1@gmail.com",
   },
   {
     icon: <FiMapPin />,

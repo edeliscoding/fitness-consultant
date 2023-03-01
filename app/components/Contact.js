@@ -32,17 +32,40 @@ const Contact = () => {
               );
             })}
           </div>
-          <form className="space-y-8 w-full max-w-[780px]">
+          <form
+            action="https://formsubmit.co/dwood4surf1@gmail.com"
+            method="POST"
+            className="space-y-8 w-full max-w-[780px]"
+          >
             <div className="flex gap-8">
-              <input className="input" type="text" placeholder="Your name" />
-              <input className="input" type="email" placeholder="Your email" />
+              <input
+                name="name"
+                className="input"
+                type="text"
+                placeholder="Your name"
+              />
+              <input
+                name="email"
+                className="input"
+                type="email"
+                placeholder="Your email"
+              />
             </div>
-            <input className="input" type="text" placeholder="Subject" />
+            <input
+              name="subject"
+              className="input"
+              type="text"
+              placeholder="Subject"
+            />
             <textarea
+              name="message"
               className="textarea"
               placeholder="Your message"
             ></textarea>
-            <button className="btn btn-lg bg-accent hover:bg-secondary-hover">
+            <button
+              type="submit"
+              className="btn btn-lg bg-accent hover:bg-secondary-hover"
+            >
               Send message
             </button>
           </form>
