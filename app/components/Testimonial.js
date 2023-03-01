@@ -18,6 +18,7 @@ const Testimonial = () => {
       id="testimonials"
       className="bg-testimonial bg-cover bg-no-repeat relative z-5 h-[780px] pt-[60px] md:pt-[120px]"
     >
+      <div className="absolute top-0 left-0 h-full w-full  bg-black opacity-50"></div>
       <div className="top-0 left-0 absolute bg-blend-multiply h-full w-full"></div>
       <div className="container mx-auto">
         {/* text */}
@@ -27,9 +28,11 @@ const Testimonial = () => {
           whileInView={"show"}
           className="text-center capitalize flex flex-col items-center"
         >
-          <h2 className="h2 text-white text-4xl">{title}</h2>
-          <p className="text-white/70 capitalize mb-8 text-xl">{subtitle}</p>
-          <div className="mb-12">
+          <h2 className="h2 text-white text-4xl z-10">{title}</h2>
+          <p className="text-white/70 capitalize mb-8 text-xl z-10">
+            {subtitle}
+          </p>
+          <div className="mb-12 z-10">
             <Image src={modelImg} alt="" />
           </div>
         </motion.div>

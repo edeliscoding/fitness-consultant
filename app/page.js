@@ -15,6 +15,7 @@ export const metadata = {
 };
 
 import { Roboto } from "@next/font/google";
+import Faq from "./components/Faq";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function Home() {
       <HeroSection />
       <About />
       <Testimonial />
+      <Faq />
       <Contact />
     </main>
   );

@@ -12,6 +12,9 @@ import {
   FiMapPin,
 } from "react-icons/fi";
 
+// faq
+import QuestionMarkIcn from "./assets/question-mark.svg";
+
 // testimonials
 import ModelWhiteImg from "./assets/model-white.png";
 import Avatar1 from "./assets/avatar1.png";
@@ -96,7 +99,43 @@ export const brands = [
   },
 ];
 
-// projects
+// Faq
+export const faq = {
+  icon: QuestionMarkIcn,
+  title: "FAQ",
+  accordions: [
+    {
+      question: "How can I book a workout class?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+    },
+    {
+      question: "Can I pay by cash for my membership?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+    },
+    {
+      question: "What age do I need to be to join?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+    },
+    {
+      question: "Are there any lockers?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+    },
+    {
+      question: "How do I cancel my membership?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+    },
+    {
+      question: "Is there water available at the gym?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+    },
+  ],
+};
 
 // projects
 
