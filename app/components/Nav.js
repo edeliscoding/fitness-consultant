@@ -22,7 +22,7 @@ const Nav = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={-80}
                 className="transition-all duration-300"
               >
                 {item.name}

@@ -42,8 +42,8 @@ export const navigation = [
   //   href: "portfolio",
   // },
   {
-    name: "services",
-    href: "services",
+    name: "faq",
+    href: "faq",
   },
   {
     name: "testimonials",
