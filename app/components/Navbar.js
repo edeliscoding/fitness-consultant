@@ -5,6 +5,7 @@ import Nav from "./Nav";
 
 import Logo from "../assets/logo.svg";
 import Davidlogo from "../assets/transparent-david.svg";
+import onCourt from "../assets/onCourt.png";
 import Socials from "../components/Socials";
 import Image from "next/image";
 import NavMobile from "../components/NavMobile";
@@ -27,7 +28,12 @@ const Navbar = () => {
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
         <a href="#">
-          <Image src={Davidlogo} alt="David Wood logo for website" />
+          <h1 aria-label="David Wood personal trainer, athletic performance coach, and fitness consultant">
+            <Image
+              src={Davidlogo}
+              alt="David Wood. Athletic performance coach and fitness consultant"
+            />
+          </h1>
         </a>
         {/* nav */}
         <div className="hidden lg:block">

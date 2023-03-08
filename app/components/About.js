@@ -4,6 +4,7 @@ import Image from "next/image";
 // import img
 import Image2 from "../assets/about.webp";
 import Image3 from "../assets/fitnesscoaching.jpg";
+import Image4 from "../assets/AboutMe.png";
 
 const About = () => {
   return (
@@ -12,15 +13,15 @@ const About = () => {
         <div className="flex flex-col xl:flex-row gap-24">
           <Image
             className="object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl"
-            src={Image3}
+            src={Image4}
             alt="David Wood as a fitness coach and athletic trainer in action"
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-col">
-              <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
+              <h1 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3">
                 David Wood
-              </h2>
-              <p className="mb-4 text-accent">
+              </h1>
+              <p className="mb-4 text-accent h1">
                 Athletic Performance Coach and Fitness Consultant
               </p>
               <hr className="mb-8 opacity-5" />

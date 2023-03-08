@@ -8,8 +8,9 @@ import Accordion from "../components/Accordion";
 const Faq = () => {
   const { icon, title, accordions } = faq;
   return (
-    <section className="md:pt-40 section bg-secondary">
-      <div className="text-accent text-center text-4xl mb-8 pt-4" id="faq">
+    <section className="md:pt-40 section bg-faq bg-no-repeat bg-left bg-cover relative">
+      <div className="bg-secondary/90 inset-0 absolute"></div>
+      <div className="text-white text-center text-4xl mb-8 pt-4" id="faq">
         Frequently Ask Questions
       </div>
       <div className="max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-secondary rounded-md">

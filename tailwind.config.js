@@ -35,6 +35,7 @@ module.exports = {
       },
       backgroundImage: {
         testimonial: "url('assets/workoutbg2.jpg')",
+        faq: "url('assets/spinningball.png')",
       },
     },
   },

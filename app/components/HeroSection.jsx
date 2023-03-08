@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import WomanImg from "../assets/banner-woman2.webp";
 import Yoga from "../assets/yoga.jpg";
+import onCourt from "../assets/onCourt.png";
 
 const HeroSection = () => {
   return (
@@ -17,8 +18,8 @@ const HeroSection = () => {
               David Wood
             </p> */}
             <h1 className="text-center text-lg md:text-left leading-[46px] md:text-4xl md:leading-tight lg:text-6xl lg:leading-[1.2] font-bold md:tracking-[-2px]">
-              Athlethic Performance Coach <span className="text-accent">&</span>{" "}
-              Fitness Consultant
+              David Wood - Athlethic Performance Coach{" "}
+              <span className="text-accent">&</span> Fitness Consultant
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
@@ -30,7 +31,7 @@ const HeroSection = () => {
             </button>
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <Image src={Yoga} alt="" height="350px" width="200px" />
+            <Image src={onCourt} alt="" height="350px" width="200px" />
           </div>
         </div>
       </div>
